@@ -27,8 +27,8 @@
   
 ## 📹 Watch the Video Tutorial
 
-📺 **Watch the complete tutorial on YouTube**: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SXYdBaZ4WFk?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="autoplay" allowfullscreen></iframe>
+[Watch the Autoplay Video on YouTube](https://www.youtube.com/embed/SXYdBaZ4WFk?autoplay=1)
+
 
 
 ## 💻 How to Use
