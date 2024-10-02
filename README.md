@@ -27,7 +27,8 @@
   
 ## 📹 Watch the Video Tutorial
 
-📺 **Watch the complete tutorial on YouTube**: [Build a Dynamic Expense Tracker](https://youtu.be/SXYdBaZ4WFk)
+📺 **Watch the complete tutorial on YouTube**: <iframe width="560" height="315" src="https://www.youtube.com/embed/SXYdBaZ4WFk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## 💻 How to Use
 
