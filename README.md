@@ -27,7 +27,7 @@
   
 ## 📹 Watch the Video Tutorial
 
-![Expense Tracker Demo](https://s6.ezgif.com/tmp/ezgif-6-70e1c3c9c6.gif)
+![Expense Tracker Demo](https://s6.ezgif.com/tmp/ezgif-6-a9b30ba579.gif)
 
 ## 💻 How to Use
 
