@@ -27,9 +27,7 @@
   
 ## 📹 Watch the Video Tutorial
 
-[Watch the Autoplay Video on YouTube](https://www.youtube.com/embed/SXYdBaZ4WFk?autoplay=1)
-
-
+![Expense Tracker Demo](https://s6.ezgif.com/tmp/ezgif-6-70e1c3c9c6.gif)
 
 ## 💻 How to Use
 
