@@ -27,7 +27,7 @@
   
 ## 📹 Watch the Video Tutorial
 
-📺 **Watch the complete tutorial on YouTube**: <iframe width="560" height="315" src="https://www.youtube.com/embed/SXYdBaZ4WFk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+📺 **Watch the complete tutorial on YouTube**: [![alt text](https://www.youtube.com/embed/SXYdBaZ4WFk)](https://www.youtube.com/embed/SXYdBaZ4WFk)
 
 
 ## 💻 How to Use
@@ -39,7 +39,7 @@ Ensure you have a modern browser that supports **JavaScript ES6**.
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/expense-tracker.git
+    git clone https://github.com/engsiam/Expense-Tracker-Application
     ```
 
 2. Navigate to the project directory:
@@ -74,4 +74,4 @@ To fetch background images from the **Pexels API**, you will need to add your AP
 **Video Link Added**: A new section "📹 Watch the Video Tutorial" was added with the YouTube link: [Build a Dynamic Expense Tracker](https://youtu.be/SXYdBaZ4WFk).
 
 
-# Expense-Tracker-Application
+
