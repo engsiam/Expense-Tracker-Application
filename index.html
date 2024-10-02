@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <!-- jQuery (Load this before Toastr.js) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Toastr CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    />
+    <!-- Toastr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  </head>
+
+  <body class="bg-gray-100 h-screen flex items-center justify-center">
+    <div class="container p-5">
+      <h1 class="text-5xl font-bold text-center mb-5 text-red-500">
+        Expense Tracker
+      </h1>
+
+      <!-- Expense Form -->
+      <div class="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6 bg-blue-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border border-gray-100
+      ">
+        <form id="expense-form" class="mb-4">
+          <div>
+            <label class="block text-sm font-bold mb-2" for="name"
+              >Expense Name</label
+            >
+            <input
+              id="expense-name"
+              class="w-full p-2 border border-gray-300 rounded-md"
+              type="text"
+            />
+          </div>
+          <div class="mt-4">
+            <label class="block text-sm font-bold mb-2" for="amount"
+              >Amount</label
+            >
+            <input
+              id="expense-amount"
+              class="w-full p-2 border border-gray-300 rounded-md"
+              type="number"
+            />
+          </div>
+          <button
+            type="submit"
+            class="w-full mt-4 bg-blue-500 text-white py-2 rounded-md"
+          >
+            Add Expense
+          </button>
+        </form>
+      </div>
+
+      <!-- Expense List (Hidden by default) -->
+      <div
+        id="expense-container"
+        class="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6 mt-6 hidden bg-blue-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border border-gray-100
+        "
+      >
+        <ul id="expense-list" class="divide-y divide-gray-300"></ul>
+      </div>
+
+      <!-- Update Popup -->
+      <div
+        id="update-popup"
+        class="hidden fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex justify-center items-center"
+      >
+        <div class="bg-white p-6 rounded-lg shadow-lg bg-blue-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 
+        ">
+          <h2 class="text-xl font-bold mb-4">Update Expense</h2>
+          <form id="update-form">
+            <div>
+              <label class="block text-sm font-bold mb-2">Expense Name</label>
+              <input
+                id="update-name"
+                class="w-full p-2 border border-gray-300 rounded-md"
+                type="text"
+                required
+              />
+            </div>
+            <div class="mt-4">
+              <label class="block text-sm font-bold mb-2">Amount</label>
+              <input
+                id="update-amount"
+                class="w-full p-2 border border-gray-300 rounded-md"
+                type="number"
+                required
+              />
+            </div>
+            <button
+              type="submit"
+              class="w-full mt-4 bg-blue-500 text-white py-2 rounded-md"
+            >
+              Update
+            </button>
+            <button
+              type="button"
+              id="cancel-update"
+              class="w-full mt-2 bg-red-500 text-white py-2 rounded-md"
+            >
+              Cancel
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
